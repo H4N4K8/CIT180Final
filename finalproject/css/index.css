@@ -1,0 +1,101 @@
+body{
+    background-color: bisque;
+}
+header{
+    background-color:lightblue;
+    text-align: center;
+    color: black;
+}
+h1{
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+}
+h2{
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size:medium;
+    padding-bottom: 15px;
+}
+nav a {
+    text-decoration:none;
+}
+nav ul{
+    list-style:none;
+    margin-left: 30%;
+}
+nav ul li{
+    border-bottom:2px solid #ffffff;
+    border-right:2px solid #ffffff;
+    display:inline;
+}
+nav ul li a:link, nav ul li a:visited {
+    font-size:10pt;
+    margin:inherit;
+    font-weight:bold;
+    padding:10px;
+    background-color:lightblue;
+    color:white;
+}
+nav ul li a:hover, nav ul li a:active{
+    font-size:10pt;
+    font-weight:bold;
+    padding:10px;
+    background-color:white;
+    color:blue;
+}
+section{
+    margin-left: 35%;
+}
+h3{
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h4{
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    font-size: 1.5em;
+}
+p{
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon-bar {
+    width: 100%; 
+    background-color: rgb(103, 198, 230); 
+    overflow: auto; 
+}
+.icon-bar a {
+    float: left; 
+    text-align: center;
+    width: 20%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease;
+    color: black; 
+    font-size: 20px;
+}
+.icon-bar a:hover {
+    background-color: #000;
+}
+footer{
+    background-color: lightblue;
+}
